@@ -1,8 +1,4 @@
 # Methane cyclers in restored peatlands
-
-MSc thesis project, Aalborg University (2026–2027)
-Author: Natasia (nl21@student.aau.dk) · Supervisor: <name>
-
 ## Aim
 
 To identify the bacterial and archaeal species central to carbon cycling in peatland
