@@ -1,0 +1,16 @@
+/raw_data/CMS/202610_peatland/2608_SP10_RWC1_D200.PBM42271.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2608_SP10_RWC1_S000.PBM37495.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2608_SP7_GLC1_D200.PBM39592.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2608_SP7_GLC1_S000.PBM39566.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2608_SP8_ABC1_D200.PBM38443.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2608_SP8_ABC1_S000.PBM41281.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP11_GLC1_D200.PBM39584.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP11_GLC1_S000.PBM41596.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP1_AGC1_D200.PBM34419.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP1_AGC1_S000.PBM34089.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP2_RWC1_D200.PBM36516.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP2_RWC1_S000.PBM41856.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP5_ABC1_D200.PBM41220.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP5_ABC1_H1400.PBM37425.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP5_ABC1_H900.PBM36590.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam
+/raw_data/CMS/202610_peatland/2609_LP5_ABC1_S000.PBM41293.dorado1.4.0.bm5.2.0_sup.sim.mod4mC_5mC_6mA.bam

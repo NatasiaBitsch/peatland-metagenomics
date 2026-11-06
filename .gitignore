@@ -1,0 +1,147 @@
+# =============================================================================
+#  .gitignore — carbivore (MSc thesis, Aalborg University)
+# -----------------------------------------------------------------------------
+#  Tracked:     code, documentation, configuration, metadata, final figures
+#  Not tracked: sequencing data, databases, intermediate results, logs
+#
+#  To track a small file that is excluded below:   git add -f <file>
+#  To check what is excluded:                       git status --ignored
+# =============================================================================
+ 
+ 
+# -----------------------------------------------------------------------------
+#  1. Project directories (data and output; remain on BioCloud)
+# -----------------------------------------------------------------------------
+bam2fastq/fastq/
+bam2fastq/logs/
+qc/reads/
+qc/stats/
+qc/logs/
+mmlong2/
+mmlong_v1.2.1/
+coverage/
+ 
+# Contents excluded; directory structure retained via .gitkeep
+data/**
+!data/**/
+!data/**/.gitkeep
+ 
+databases/**
+!databases/**/
+!databases/**/.gitkeep
+ 
+results/**
+!results/**/
+!results/**/.gitkeep
+ 
+logs/**
+!logs/**/
+!logs/**/.gitkeep
+ 
+ 
+# -----------------------------------------------------------------------------
+#  2. Sequencing reads and alignments
+# -----------------------------------------------------------------------------
+*.bam
+*.bai
+*.cram
+*.sam
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+ 
+ 
+# -----------------------------------------------------------------------------
+#  3. Assemblies, genomes and annotations
+# -----------------------------------------------------------------------------
+*.fasta
+*.fa
+*.fna
+*.faa
+*.ffn
+*.fasta.gz
+*.fa.gz
+*.fna.gz
+*.gff
+*.gff3
+*.gbk
+ 
+ 
+# -----------------------------------------------------------------------------
+#  4. Tool databases and outputs
+# -----------------------------------------------------------------------------
+# Sylph (database, sample sketches)
+*.syldb
+*.sylsp
+ 
+# SingleM (metapackages, archives)
+*.smpkg
+*.archive.json
+ 
+# GraftM (packages, placements)
+*.gpkg
+*.jplace
+ 
+# Nonpareil
+*.npo
+ 
+# Other binary formats
+*.h5
+*.pkl
+ 
+ 
+# -----------------------------------------------------------------------------
+#  5. Archives and containers
+# -----------------------------------------------------------------------------
+*.gz
+*.tar
+*.tgz
+*.zip
+*.sif
+ 
+ 
+# -----------------------------------------------------------------------------
+#  6. Text files (except input lists required by scripts)
+# -----------------------------------------------------------------------------
+*.txt
+!bam_list.txt
+ 
+ 
+# -----------------------------------------------------------------------------
+#  7. Job scheduler and workflow files
+# -----------------------------------------------------------------------------
+*.out
+*.err
+slurm-*.out
+.snakemake/
+ 
+ 
+# -----------------------------------------------------------------------------
+#  8. Temporary and incomplete files
+# -----------------------------------------------------------------------------
+tmp_*/
+test_*/
+*.partial
+*.partial.*
+ 
+ 
+# -----------------------------------------------------------------------------
+#  9. R and Python
+# -----------------------------------------------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ 
+ 
+# -----------------------------------------------------------------------------
+#  10. Editors and operating system
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
