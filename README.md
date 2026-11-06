@@ -41,7 +41,7 @@ Data and outputs are kept on AAU BioCloud and are not part of this repository
 - 16 peatland samples, Oxford Nanopore, 100–250 GB per BAM
 - Basecalled with Dorado 1.4.0 (model v5.2.0 sup, simplex) including 4mC/5mC/6mA
   modified bases; methylation is kept in the original BAMs for later bin refinement
-- Reference taxonomy: GTDB r232 (matching the MFD MAGs)
+- Reference taxonomy: GTDB r232 
 
 ## Pipeline status
 
