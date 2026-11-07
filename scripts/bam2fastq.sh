@@ -6,9 +6,6 @@
 #SBATCH --mem=16G
 #SBATCH --time=1-00:00:00             # 24 h 
 
-# BAM (Nanopore) -> gzipped FASTQ with samtools, one array task per BAM.
-# Submit with:  sbatch /home/student.aau.dk/hj03bu/carbivore/scripts/bam2fastq.sh
-
 # Load software first (BioCloud uses mamba; the "-l" in the first line makes this work on compute nodes)
 mamba activate samtools
 
