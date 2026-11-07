@@ -19,9 +19,6 @@ bam=$(basename "$(sed -n "${SLURM_ARRAY_TASK_ID}p" "${dir_work}/bam_list.txt")" 
 sample="${bam%%.*}"          # remove everything from the first "." (the .PBM…dorado… ending)
 sample="${sample#*_}"        # remove the date prefix before the first "_"
 
-# Load nanoq (included in the mmlong2 environment)
-conda activate /projects/microflora_danica/mmlong2/conda/mmlong2_v1.2.1
-
 set -euo pipefail
 
 mkdir -p ${dir_stats}
